@@ -204,3 +204,9 @@ Congratulations! You have just signed and sent an Ethereum Transaction.
 
 **Created by:** Tony Landero<br>
 **Email:** mr.landero@gmail.com<br>
+
+---
+
+## License
+
+MIT
