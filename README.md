@@ -39,7 +39,7 @@ conda list streamlit
 
 If it is installed, you should see the verison number as the following image shows:
 
-![Streamlit List](streamlit_list.png)
+![Streamlit List](images/streamlit_list.png)
 
 If not installed on your computer yet, run the following code from your terminal:
 
