@@ -97,7 +97,7 @@ candidate_database = {
 people = ["Lane", "Ash", "Jo", "Kendall"]
 
 
-def get_people(w3):
+def get_people(w3=w3):
     """Display the database of Fintech Finders candidate information."""
     db_list = list(candidate_database.values())
 
@@ -146,7 +146,7 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-st.sidebar.write(get_balance(account.address))
+st.sidebar.write(get_balance(address=account.address, w3=w3))
 
 ##########################################
 
@@ -268,7 +268,7 @@ if st.sidebar.button("Send Transaction"):
     # Call the `send_transaction` function and pass it 3 parameters:
     # Your `account`, the `candidate_address`, and the `wage` as parameters
     # Save the returned transaction hash as a variable named `transaction_hash`
-    # YOUR CODE HERE
+    transaction_hash = send_transaction(account=account,to=candidate_address,wage=wage, w3=w3)
 
     # Markdown for the transaction hash
     st.sidebar.markdown("#### Validated Transaction Hash")
