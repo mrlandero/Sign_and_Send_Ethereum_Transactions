@@ -64,3 +64,57 @@ If not installed on your computer yet, run the following code from your terminal
 ```python
 pip install typing
 ```
+
+3. Web3.py:
+
+To check if you have Web3.py installed, run the following code from your terminal:
+
+```python
+conda list web3
+```
+
+If it is installed, you should see the version number as the following image shows:
+
+![Web3 List](web3_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install web3
+```
+
+4. Requests:
+
+To check if you have requests installed, run the following code from your terminal:
+
+```python
+conda list requests
+```
+
+If it is installed, you should see the version number as the following image shows:
+
+![Requests List](requests_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install requests
+```
+
+5. Dotenv:
+
+To check if you have dotenv installed, run the following code from your terminal:
+
+```python
+conda list dotenv
+```
+
+If it is installed, you should see the version number as the following image shows:
+
+![Dotenv List](dotenv_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install python-dotenv
+```
