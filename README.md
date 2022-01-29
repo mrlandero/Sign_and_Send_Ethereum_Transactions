@@ -136,3 +136,21 @@ If not installed on your computer yet, run the following code from your terminal
 ```python
 pip install bip44
 ```
+
+---
+
+## Usage Guide
+
+To use the 'Sign_and_Send_Ethereum_Transactions' application, simply clone the repository and type **streamlit run fintech_finder.py** in your terminal.
+
+Step 1: Verify that your Ethereum (Ganache) Account information is correct. This includes your account address, as well as your balance:
+
+![Account Info](account_info.png)
+
+Step 2: Select a Fintech Professional and the number of hours you need them to work
+
+![Select Professional](select_professional.png)
+
+As you can see, for this example we are selecting to work with Jo, and we need her to work 3.50 hours.
+
+Step 3: 
