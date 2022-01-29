@@ -118,3 +118,21 @@ If not installed on your computer yet, run the following code from your terminal
 ```python
 pip install python-dotenv
 ```
+
+6. Bip44:
+
+To check if you have bip44 installed, run the following code from your terminal:
+
+```python
+conda list bip44
+```
+
+If it is installed, you should see the version number as the following image shows:
+
+![Bip44 List](bip44_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install bip44
+```
