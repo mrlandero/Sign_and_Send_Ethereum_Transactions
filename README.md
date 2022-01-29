@@ -153,4 +153,27 @@ Step 2: Select a Fintech Professional and the number of hours you need them to w
 
 As you can see, for this example we are selecting to work with Jo, and we need her to work 3.50 hours.
 
-Step 3: 
+Step 3: Verify that the selected person's Ethereum Account address and their hourly wage is correct:
+
+![Receiver Account Info](receiver_info.png)
+
+We can see Jo's account address and her hourly rate in ether. 
+
+Step 4: Verify that the total wage calculation is correct. Then click on `Send Transaction`:
+
+![Send Transaction](send_transaction.png)
+
+We can see that Jo's total wage should be 0.665 ether (3.5 hours x 0.19 hourly wage). 
+
+Step 5: Verify that you receive a transaction has. This signifies that your transaction has been signed and sent:
+
+![Verify Transaction](verify_transaction.png)
+
+We can see that we received a bit encoded transaction hash. This lets us know that our transaction was sent. 
+
+Step 6: Verify your account address and balance on Ganache:
+
+![Account Balance](account_balance.png)
+
+We can see that we have a balance of 99.03 ether and we have executed 2 transactions from our account.
+
