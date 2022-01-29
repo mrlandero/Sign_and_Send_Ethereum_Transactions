@@ -197,3 +197,10 @@ In this transaction receipt we can see the sender, receipient, the gas, and the 
 
 We are now done with our transaction. We signed, sent, and verified this transaction. We validated the completion by logging into Ganache and reviewing the transaction and block history. We also looked at the receipt from our transaction's hash to verify the transaction information. 
 Congratulations! You have just signed and sent an Ethereum Transaction. 
+
+---
+
+## Contributors
+
+**Created by:** Tony Landero<br>
+**Email:** mr.landero@gmail.com<br>
