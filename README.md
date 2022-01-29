@@ -22,3 +22,28 @@ This project leverages python 3.7 with the following packages:
 **[Dotenv Library](https://pypi.org/project/python-dotenv/)** - Python-dotenv reads key-value pairs from a .env file and can set them as environment variables.<br>
 
 **[Bip44 Library](https://pypi.org/project/bip44/)** - Simple Python bip44 implementation. Mnemonic + bip32.<br>
+
+---
+
+## Installation Guide
+
+Before running the application first install the following dependencies:
+
+1. Streamlit:
+
+To check if you have streamlit installed, run the following code from your terminal:
+
+```python
+conda list streamlit
+```
+
+If it is installed, you should see the verison number as the following image shows:
+
+![Streamlit List](streamlit_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install streamlit
+```
+
