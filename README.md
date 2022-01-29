@@ -177,3 +177,23 @@ Step 6: Verify your account address and balance on Ganache:
 
 We can see that we have a balance of 99.03 ether and we have executed 2 transactions from our account.
 
+Step 7: Verify your block history to check if transaction is part of the blockchain:
+
+![Block History](block_history.png)
+
+We can see that we have 3 blocks in this chain (1 Genesis Block and 2 Transaction Blocks). This also verifies our 2 transactions from our balance history.
+
+Step 8: Verify transaction history to check that your latest transaction is displayed:
+
+![Transaction History](transaction_history.png)
+
+We can see our 2 transactions here. The transaction on top is the latest transaction. We can see the sender and receipient addresses, the amount of gas used to mine the transaction, as well as the value of the transaction in wei. 
+
+Step 9: Click on the `latest` transaction hash to review the transaction details:
+
+![Transaction Details](transaction_receipt.png)
+
+In this transaction receipt we can see the sender, receipient, the gas, and the value of the transaction. 
+
+We are now done with our transaction. We signed, sent, and verified this transaction. We validated the completion by logging into Ganache and reviewing the transaction and block history. We also looked at the receipt from our transaction's hash to verify the transaction information. 
+Congratulations! You have just signed and sent an Ethereum Transaction. 
