@@ -47,3 +47,20 @@ If not installed on your computer yet, run the following code from your terminal
 pip install streamlit
 ```
 
+2. Typing:
+
+To check if you have typing installed, run the following code from your terminal:
+
+```python
+conda list typing
+```
+
+If it is installed, you should see the version number as the following image shows:
+
+![Typing List](typing_list.png)
+
+If not installed on your computer yet, run the following code from your terminal:
+
+```python
+pip install typing
+```
